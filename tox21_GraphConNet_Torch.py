@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
 This is a temporary script file.
 """
 
@@ -79,9 +77,7 @@ class GraphConvModelTorch(nn.Module):
         logits_output = self.logits(dense2_output)
         softmax_output = self.softmax(logits_output)
         return softmax_output
-    
-    
-    
+
 model = dc.models.TorchModel(GraphConvModelTorch(), loss=dc.models.losses.CategoricalCrossEntropy())
 model.fit_generator(data_generator(train_dataset, epochs=5))
 
@@ -89,6 +85,3 @@ metric	=	dc.metrics.Metric(dc.metrics.roc_auc_score)
 
 print('Training set score:', model.evaluate_generator(data_generator(train_dataset), [metric], transformers))
 print('Test set score:', model.evaluate_generator(data_generator(test_dataset), [metric], transformers))
-
-
-
