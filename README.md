@@ -1,3 +1,3 @@
 # Drug_molecule_Property_Prediction
-Prediction of the properties of drug molecules
-This Python code predicts the solubility/ Toxicity of Drug molecules using MLP
+By [Aditya Abeysinghe](https://scholar.google.com/citations?user=ECuFNBQAAAAJ&hl=en), [Sena Seneviratne](https://scholar.google.com/citations?hl=en&user=RE91Ra8AAAAJ)
+
