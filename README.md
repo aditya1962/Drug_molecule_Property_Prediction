@@ -34,3 +34,14 @@ python Solution_pred_PyTorch.py
 ```python
 python tox21_MLP_Torch.py
 ```
+
+# Acknowledgements
+This repository communicates with and/or references the following:
+
+- [DeepChem](https://github.com/deepchem/deepchem)
+- [Pytorch](https://github.com/pytorch/pytorch)
+
+We thank all their contributors and maintainers.
+
+# Use of Third-party software
+Use of Third-party software as mentioned in the [Acknowledgements](#Acknowledgements) section may be governed by separate license and terms and conditions. Your use of these third-party software is subject to any such terms and you should check them before using any script.
